@@ -72,7 +72,8 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} 
+
 
 /* Basic */
 
@@ -148,12 +149,14 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		border-bottom: dotted 1px rgba(88, 88, 88, 0.5); 
+		font-size:larger;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #38A3A5 !important; 
+
 		}
 
 	strong, b {
@@ -2692,8 +2695,14 @@ input, select, textarea {
 					color: #ffffff !important;
 				}
 
-				.tiles article > a h2 {
-					margin: 0;
+				.tiles article > a h2 { 
+					display:flex; 
+					flex:wrap; 
+					margin: 0;  
+					margin-right: 20%;
+					text-align:center ;
+
+					
 					
 					
 				}
