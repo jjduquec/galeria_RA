@@ -33,6 +33,37 @@ body {
 	line-height: 1;
 } 
 
+#columnas{   
+	position:absolute;
+	width:30% ;
+	height:auto;  
+	border:2px solid blue;
+	
+
+
+}  
+
+
+#columnas p { 
+	
+	column-count:1; 
+	column-gap: normal;
+
+
+}
+
+#mostrador{ 
+	position:absolute;
+	width:55%; 
+	height:50%;  
+	border:2px solid red;
+	
+	margin-left:33% ;
+
+
+
+}
+
 
 
 ol, ul {
