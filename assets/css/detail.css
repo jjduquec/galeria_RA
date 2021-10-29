@@ -19,7 +19,7 @@
 
 #mostrador{ 
 	position:absolute;
-	width:55%; 
+	width:60%; 
 	height:80%;  
 	border:2px solid red;
 	margin-left:33% ;
@@ -27,47 +27,27 @@
 } 
 
 #mostrador img{ 
-
+	position:absolute;
+	margin-top:2%; 
+	margin-left:2%; 
 	box-shadow: 5px 5px 5px gray;
 }
 
-#general{ 
+#mostrador button{  
 	position:absolute;
-	margin-top:2%; 
-	margin-left:20%; 
-	
-
+	margin-top:54%;
 
 
 } 
 
-.muestra{ 
-	position:absolute;
-	margin-top:45%; 
-	
+#anterior{ 
 
-
-} 
-
-
-#img1{ 
 	margin-left:15%;
 
+}
+#siguiente{ 
 
-} 
-#img2{
-	margin-left:30%;
+	margin-left:38%;
+
 }
 
-#img3{
-	margin-left:45%;
-} 
-#img4{
-	margin-left:60%;
-}
-#img5{ 
-
-	margin-left:75%;
-
-
-}
