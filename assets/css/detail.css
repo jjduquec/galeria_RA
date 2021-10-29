@@ -28,26 +28,48 @@
 
 #mostrador img{ 
 	position:absolute;
-	margin-top:2%; 
-	margin-left:2%; 
+	margin-left:0.5%; 
 	box-shadow: 5px 5px 5px gray;
-}
-
-#mostrador button{  
-	position:absolute;
-	margin-top:54%;
-
-
 } 
 
-#anterior{ 
 
-	margin-left:15%;
+#descargas{   
+	position:absolute; 
+	width:20%; 
+	height:30%; 
+	
+	margin-left:75%; 
+	margin-top:20%; 
+
+
+
 
 }
-#siguiente{ 
 
-	margin-left:38%;
+.descarga{ 
+
+	position:relative; 
+	display:block; 
+	margin-top:2%;
+	    
+
+	
+	
+
 
 }
+
+.galeria{  
+	
+	margin-left:4% ;  
+	margin-top:55%;
+	display: inline;
+
+
+}  
+
+
+
+
+
 
