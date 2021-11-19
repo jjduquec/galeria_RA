@@ -1,7 +1,9 @@
-#carousel  { 
-	width:30%;  
-	height:30%;
-
+#carrusel{ 
+	position:absolute; 
+	width:10%; 
+	height:10%;  
+	margin-top:30%;
+	border:2px solid blue;
 
 
 }
