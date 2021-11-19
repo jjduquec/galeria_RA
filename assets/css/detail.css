@@ -1,75 +1,7 @@
-#columnas{   
-	position:absolute;
-	width:30% ;
-	height:auto;  
-	border:2px solid blue;
-	
-
-
-}  
-
-
-#columnas p { 
-	
-	column-count:1; 
-	column-gap: normal;
-
-
-}
-
-#mostrador{ 
-	position:absolute;
-	width:60%; 
-	height:80%;  
-	border:2px solid red;
-	margin-left:33% ;
-
-} 
-
-#mostrador img{ 
-	position:absolute;
-	margin-left:0.5%; 
-	box-shadow: 5px 5px 5px gray;
-} 
-
-
-#descargas{   
-	position:absolute; 
-	width:20%; 
-	height:30%; 
-	
-	margin-left:75%; 
-	margin-top:20%; 
-
+#carousel  { 
+	width:30%;  
+	height:30%;
 
 
 
 }
-
-.descarga{ 
-
-	position:relative; 
-	display:block; 
-	margin-top:2%;
-	    
-
-	
-	
-
-
-}
-
-.galeria{  
-	
-	margin-left:4% ;  
-	margin-top:55%;
-	display: inline;
-
-
-}  
-
-
-
-
-
-
