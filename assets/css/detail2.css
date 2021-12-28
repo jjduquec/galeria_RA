@@ -1,4 +1,4 @@
-    
+  
         h1{ 
 			position:absolute;  
 			margin-top:9%;
@@ -50,8 +50,8 @@
   
 		  #galeria{  
 			  position:absolute; 
-			  margin-top:14%;
-			  margin-left:47%;
+			  margin-top:9%;
+			  margin-left:42%;
 			  width:40%; 
 			  height:55%;  
 			  background:#ECEBEB;
@@ -61,8 +61,8 @@
   
 		  #botones{ 
 			position:absolute; 
-			margin-top:45%; 
-			margin-left:47%;  
+			margin-top:39%; 
+			margin-left:42%;  
 			padding-left: 6%;
   
   
@@ -91,3 +91,4 @@
   
 		  }
 		
+  
