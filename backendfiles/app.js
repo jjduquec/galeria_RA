@@ -4,19 +4,19 @@ const port=3000
 
 
 
-app.get('/marcadores/:nombre',(req,res)=>{ 
+app.get('/marcador/:nombre',(req,res)=>{ 
     const marcador=req.params.nombre;
     var archivo="";  
     archivo=archivo.concat(__dirname,"/marcadores","/",marcador,".jpg"); 
-    res.download();
+    res.download(archivo);
 
 })
 
 app.get('/apk/:nombre',(req,res)=>{ 
     const marcador=req.params.nombre;
     var archivo="";  
-    archivo=archivo.concat(__dirname,"/apk","/",marcador,".jpg"); 
-    res.download();
+    archivo=archivo.concat(__dirname,"/apk","/",marcador,".apk"); 
+    res.download(archivo);
 
 })
 
