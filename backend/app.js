@@ -1,6 +1,7 @@
 const express=require('express') 
 const app=express() 
-const port=3000 
+const port=3000  
+const host='localhost'
 
 
 
@@ -21,8 +22,4 @@ app.get('/apk/:nombre',(req,res)=>{
 })
 
 
-app.listen(port,()=>{
-
-
-    console.log("puerto 3000 a la escucha")
-})
+app.listen(port,host)
