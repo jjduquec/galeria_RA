@@ -1,7 +1,7 @@
 
 function marcador(recurso){
 
-    url="192.168.20.23:3000/marcador/"
+    url="localhost:3000/marcador/"
     url=url.concat(recurso) 
 
     window.open(window.location.replace=url,"_blank")
@@ -13,7 +13,7 @@ function marcador(recurso){
 function apk(recurso){
 
     $('#qrcode').show();
-    url="192.168.20.23:3000/apk/"
+    url="localhost:3000/apk/"
     url=url.concat(recurso) 
 
     //creamos codigo QR  
