@@ -1,15 +1,4 @@
 
-function marcador(recurso){
-
-    url="localhost:3000/marcador/"
-    url=url.concat(recurso) 
-
-    window.open(window.location.replace=url,"_blank")
-
-}
-
-
-
 function apk(recurso){
 
     $('#qrcode').show();
