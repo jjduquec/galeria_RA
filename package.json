@@ -1,0 +1,15 @@
+{
+  "name": "galeriabackend",
+  "version": "1.0.0",
+  "description": "sirve los archivos estaticos de la galeria  ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+
+  },
+  "author": "Juan Jose Duque Cardona (jjduquec@unal.edu.co/juanjo.dc@outlook.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
